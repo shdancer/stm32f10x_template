@@ -17,5 +17,10 @@ void Led_Init()
 
 void LightUp()
 {
+  GPIO_SetBits(GPIOB, GPIO_Pin_0);
+}
+
+void LightDown()
+{
   GPIO_ResetBits(GPIOB, GPIO_Pin_0);
 }

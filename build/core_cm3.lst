@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
   30:CMSIS/core_cm3.c **** 
   31:CMSIS/core_cm3.c **** #elif defined ( __ICCARM__ )
   32:CMSIS/core_cm3.c ****   #define __ASM           __asm                                       /*!< asm keyword for IAR Comp
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 2
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 2
 
 
   33:CMSIS/core_cm3.c ****   #define __INLINE        inline                                      /*!< inline keyword for IAR C
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
   87:CMSIS/core_cm3.c **** {
   88:CMSIS/core_cm3.c ****   mrs r0, msp
   89:CMSIS/core_cm3.c ****   bx lr
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 3
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 3
 
 
   90:CMSIS/core_cm3.c **** }
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  144:CMSIS/core_cm3.c ****   clrex
  145:CMSIS/core_cm3.c **** }
  146:CMSIS/core_cm3.c **** 
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 4
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 4
 
 
  147:CMSIS/core_cm3.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  201:CMSIS/core_cm3.c ****  *
  202:CMSIS/core_cm3.c ****  * @return FaultMask
  203:CMSIS/core_cm3.c ****  *
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 5
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 5
 
 
  204:CMSIS/core_cm3.c ****  * Return the content of the fault mask register
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  258:CMSIS/core_cm3.c **** 
  259:CMSIS/core_cm3.c **** /**
  260:CMSIS/core_cm3.c ****  * @brief  Return the Process Stack Pointer
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 6
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 6
 
 
  261:CMSIS/core_cm3.c ****  *
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  315:CMSIS/core_cm3.c ****  * @brief  Reverse byte order in unsigned short value
  316:CMSIS/core_cm3.c ****  *
  317:CMSIS/core_cm3.c ****  * @param  value  value to reverse
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 7
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 7
 
 
  318:CMSIS/core_cm3.c ****  * @return        reversed value
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  372:CMSIS/core_cm3.c ****  *
  373:CMSIS/core_cm3.c ****  * @param  *addr  address pointer
  374:CMSIS/core_cm3.c ****  * @return        value of (*address)
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 8
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 8
 
 
  375:CMSIS/core_cm3.c ****  *
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  429:CMSIS/core_cm3.c **** #pragma diag_default=Pe940
  430:CMSIS/core_cm3.c **** 
  431:CMSIS/core_cm3.c **** 
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 9
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 9
 
 
  432:CMSIS/core_cm3.c **** #elif (defined (__GNUC__)) /*------------------ GNU Compiler ---------------------*/
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  455:CMSIS/core_cm3.c ****  *
  456:CMSIS/core_cm3.c ****  * @param  topOfProcStack  Process Stack Pointer
  457:CMSIS/core_cm3.c ****  *
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 10
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 10
 
 
  458:CMSIS/core_cm3.c ****  * Assign the value ProcessStackPointer to the MSP 
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  480:CMSIS/core_cm3.c **** 
  481:CMSIS/core_cm3.c ****   __ASM volatile ("MRS %0, msp\n\t" 
   94              		.loc 1 481 3 view .LVU10
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 11
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 11
 
 
   95              		.syntax unified
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  132              		.loc 1 500 1 is_stmt 0 view .LVU15
  133              		.thumb
  134              		.syntax unified
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 12
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 12
 
 
  135              		.cfi_endproc
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  516:CMSIS/core_cm3.c **** 
  517:CMSIS/core_cm3.c **** /**
  518:CMSIS/core_cm3.c ****  * @brief  Set the Base Priority value
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 13
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 13
 
 
  519:CMSIS/core_cm3.c ****  *
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  212              		.syntax unified
  213              	@ 540 "CMSIS/core_cm3.c" 1
  214 0000 EFF31080 		MRS r0, primask
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 14
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 14
 
 
  215              	@ 0 "" 2
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  259              	__get_FAULTMASK:
  260              	.LFB8:
  555:CMSIS/core_cm3.c **** 
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 15
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 15
 
 
  556:CMSIS/core_cm3.c **** /**
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  293              		.cfi_startproc
  294              		@ args = 0, pretend = 0, frame = 0
  295              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 16
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 16
 
 
  296              		@ link register save eliminated.
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  335 0004 7047     		bx	lr
  336              		.cfi_endproc
  337              	.LFE10:
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 17
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 17
 
 
  339              		.section	.text.__set_CONTROL,"ax",%progbits
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  617:CMSIS/core_cm3.c ****  * Reverse byte order in integer value
  618:CMSIS/core_cm3.c ****  */
  619:CMSIS/core_cm3.c **** uint32_t __REV(uint32_t value)
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 18
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 18
 
 
  620:CMSIS/core_cm3.c **** {
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  412              		.loc 1 639 3 view .LVU55
  413              		.syntax unified
  414              	@ 639 "CMSIS/core_cm3.c" 1
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 19
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 19
 
 
  415 0000 40BA     		rev16 r0, r0
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  453              		.cfi_endproc
  454              	.LFE14:
  456              		.section	.text.__RBIT,"ax",%progbits
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 20
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 20
 
 
  457              		.align	1
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  676:CMSIS/core_cm3.c ****  * @brief  LDR Exclusive (8 bit)
  677:CMSIS/core_cm3.c ****  *
  678:CMSIS/core_cm3.c ****  * @param  *addr  address pointer
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 21
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 21
 
 
  679:CMSIS/core_cm3.c ****  * @return        value of (*address)
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  530              		@ args = 0, pretend = 0, frame = 0
  531              		@ frame_needed = 0, uses_anonymous_args = 0
  532              		@ link register save eliminated.
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 22
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 22
 
 
  701:CMSIS/core_cm3.c ****     uint16_t result=0;
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  570              	@ 0 "" 2
  571              	.LVL31:
  720:CMSIS/core_cm3.c ****    return(result);
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 23
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 23
 
 
  572              		.loc 1 720 4 view .LVU83
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  610              		.cfi_endproc
  611              	.LFE19:
  613              		.section	.text.__STREXH,"ax",%progbits
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 24
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 24
 
 
  614              		.align	1
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  654              	.LVL38:
  655              	.LFB21:
  756:CMSIS/core_cm3.c **** 
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 25
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 25
 
 
  757:CMSIS/core_cm3.c **** /**
@@ -1480,54 +1480,54 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 1
  677              	.Letext0:
  678              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
  679              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s 			page 26
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 core_cm3.c
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:18     .text.__get_PSP:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:24     .text.__get_PSP:0000000000000000 __get_PSP
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:51     .text.__set_PSP:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:57     .text.__set_PSP:0000000000000000 __set_PSP
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:79     .text.__get_MSP:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:85     .text.__get_MSP:0000000000000000 __get_MSP
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:111    .text.__set_MSP:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:117    .text.__set_MSP:0000000000000000 __set_MSP
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:139    .text.__get_BASEPRI:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:145    .text.__get_BASEPRI:0000000000000000 __get_BASEPRI
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:169    .text.__set_BASEPRI:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:175    .text.__set_BASEPRI:0000000000000000 __set_BASEPRI
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:196    .text.__get_PRIMASK:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:202    .text.__get_PRIMASK:0000000000000000 __get_PRIMASK
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:226    .text.__set_PRIMASK:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:232    .text.__set_PRIMASK:0000000000000000 __set_PRIMASK
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:253    .text.__get_FAULTMASK:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:259    .text.__get_FAULTMASK:0000000000000000 __get_FAULTMASK
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:283    .text.__set_FAULTMASK:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:289    .text.__set_FAULTMASK:0000000000000000 __set_FAULTMASK
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:310    .text.__get_CONTROL:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:316    .text.__get_CONTROL:0000000000000000 __get_CONTROL
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:340    .text.__set_CONTROL:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:346    .text.__set_CONTROL:0000000000000000 __set_CONTROL
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:367    .text.__REV:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:373    .text.__REV:0000000000000000 __REV
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:397    .text.__REV16:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:403    .text.__REV16:0000000000000000 __REV16
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:427    .text.__REVSH:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:433    .text.__REVSH:0000000000000000 __REVSH
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:457    .text.__RBIT:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:463    .text.__RBIT:0000000000000000 __RBIT
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:487    .text.__LDREXB:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:493    .text.__LDREXB:0000000000000000 __LDREXB
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:519    .text.__LDREXH:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:525    .text.__LDREXH:0000000000000000 __LDREXH
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:551    .text.__LDREXW:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:557    .text.__LDREXW:0000000000000000 __LDREXW
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:581    .text.__STREXB:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:587    .text.__STREXB:0000000000000000 __STREXB
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:614    .text.__STREXH:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:620    .text.__STREXH:0000000000000000 __STREXH
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:647    .text.__STREXW:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc2s7asa.s:653    .text.__STREXW:0000000000000000 __STREXW
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:18     .text.__get_PSP:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:24     .text.__get_PSP:0000000000000000 __get_PSP
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:51     .text.__set_PSP:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:57     .text.__set_PSP:0000000000000000 __set_PSP
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:79     .text.__get_MSP:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:85     .text.__get_MSP:0000000000000000 __get_MSP
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:111    .text.__set_MSP:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:117    .text.__set_MSP:0000000000000000 __set_MSP
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:139    .text.__get_BASEPRI:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:145    .text.__get_BASEPRI:0000000000000000 __get_BASEPRI
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:169    .text.__set_BASEPRI:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:175    .text.__set_BASEPRI:0000000000000000 __set_BASEPRI
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:196    .text.__get_PRIMASK:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:202    .text.__get_PRIMASK:0000000000000000 __get_PRIMASK
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:226    .text.__set_PRIMASK:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:232    .text.__set_PRIMASK:0000000000000000 __set_PRIMASK
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:253    .text.__get_FAULTMASK:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:259    .text.__get_FAULTMASK:0000000000000000 __get_FAULTMASK
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:283    .text.__set_FAULTMASK:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:289    .text.__set_FAULTMASK:0000000000000000 __set_FAULTMASK
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:310    .text.__get_CONTROL:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:316    .text.__get_CONTROL:0000000000000000 __get_CONTROL
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:340    .text.__set_CONTROL:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:346    .text.__set_CONTROL:0000000000000000 __set_CONTROL
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:367    .text.__REV:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:373    .text.__REV:0000000000000000 __REV
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:397    .text.__REV16:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:403    .text.__REV16:0000000000000000 __REV16
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:427    .text.__REVSH:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:433    .text.__REVSH:0000000000000000 __REVSH
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:457    .text.__RBIT:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:463    .text.__RBIT:0000000000000000 __RBIT
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:487    .text.__LDREXB:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:493    .text.__LDREXB:0000000000000000 __LDREXB
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:519    .text.__LDREXH:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:525    .text.__LDREXH:0000000000000000 __LDREXH
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:551    .text.__LDREXW:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:557    .text.__LDREXW:0000000000000000 __LDREXW
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:581    .text.__STREXB:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:587    .text.__STREXB:0000000000000000 __STREXB
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:614    .text.__STREXH:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:620    .text.__STREXH:0000000000000000 __STREXH
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:647    .text.__STREXW:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//cc6HJvPj.s:653    .text.__STREXW:0000000000000000 __STREXW
 
 NO UNDEFINED SYMBOLS

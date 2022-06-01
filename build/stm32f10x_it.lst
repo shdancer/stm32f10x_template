@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
   30:User/stm32f10x_it.c **** /* Private typedef -----------------------------------------------------------*/
   31:User/stm32f10x_it.c **** /* Private define ------------------------------------------------------------*/
   32:User/stm32f10x_it.c **** /* Private macro -------------------------------------------------------------*/
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 2
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 2
 
 
   33:User/stm32f10x_it.c **** /* Private variables ---------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
   58:User/stm32f10x_it.c ****   {
   55              		.loc 1 58 9 discriminator 1 view .LVU5
   56 0000 FEE7     		b	.L3
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 3
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 3
 
 
   57              		.cfi_endproc
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
   92              		.loc 1 82 1 view -0
   93              		.cfi_startproc
   94              		@ Volatile: function does not return.
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 4
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 4
 
 
   95              		@ args = 0, pretend = 0, frame = 0
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
  133              		.thumb
  134              		.thumb_func
  136              	SVC_Handler:
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 5
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 5
 
 
  137              	.LFB34:
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
  119:User/stm32f10x_it.c **** 
  120:User/stm32f10x_it.c **** /**
  121:User/stm32f10x_it.c ****   * @brief  This function handles PendSVC exception.
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 6
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 6
 
 
  122:User/stm32f10x_it.c ****   * @param  None
@@ -344,28 +344,28 @@ ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 1
  203              	.LFE37:
  205              		.text
  206              	.Letext0:
-ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s 			page 7
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f10x_it.c
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:18     .text.NMI_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:24     .text.NMI_Handler:0000000000000000 NMI_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:38     .text.HardFault_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:44     .text.HardFault_Handler:0000000000000000 HardFault_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:61     .text.MemManage_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:67     .text.MemManage_Handler:0000000000000000 MemManage_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:84     .text.BusFault_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:90     .text.BusFault_Handler:0000000000000000 BusFault_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:107    .text.UsageFault_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:113    .text.UsageFault_Handler:0000000000000000 UsageFault_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:130    .text.SVC_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:136    .text.SVC_Handler:0000000000000000 SVC_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:149    .text.DebugMon_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:155    .text.DebugMon_Handler:0000000000000000 DebugMon_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:168    .text.PendSV_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:174    .text.PendSV_Handler:0000000000000000 PendSV_Handler
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:187    .text.SysTick_Handler:0000000000000000 $t
-/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccZV41h2.s:193    .text.SysTick_Handler:0000000000000000 SysTick_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:18     .text.NMI_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:24     .text.NMI_Handler:0000000000000000 NMI_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:38     .text.HardFault_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:44     .text.HardFault_Handler:0000000000000000 HardFault_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:61     .text.MemManage_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:67     .text.MemManage_Handler:0000000000000000 MemManage_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:84     .text.BusFault_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:90     .text.BusFault_Handler:0000000000000000 BusFault_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:107    .text.UsageFault_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:113    .text.UsageFault_Handler:0000000000000000 UsageFault_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:130    .text.SVC_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:136    .text.SVC_Handler:0000000000000000 SVC_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:149    .text.DebugMon_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:155    .text.DebugMon_Handler:0000000000000000 DebugMon_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:168    .text.PendSV_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:174    .text.PendSV_Handler:0000000000000000 PendSV_Handler
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:187    .text.SysTick_Handler:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccDUSDUL.s:193    .text.SysTick_Handler:0000000000000000 SysTick_Handler
 
 NO UNDEFINED SYMBOLS
