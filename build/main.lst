@@ -1,0 +1,79 @@
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccq0be99.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.main,"ax",%progbits
+  18              		.align	1
+  19              		.global	main
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  24              	main:
+  25              	.LFB29:
+  26              		.file 1 "User/main.c"
+   1:User/main.c   **** #include "stm32f10x.h"
+   2:User/main.c   **** #include "led.h"
+   3:User/main.c   **** 
+   4:User/main.c   **** int main()
+   5:User/main.c   **** {
+  27              		.loc 1 5 1 view -0
+  28              		.cfi_startproc
+  29              		@ Volatile: function does not return.
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 08B5     		push	{r3, lr}
+  33              	.LCFI0:
+  34              		.cfi_def_cfa_offset 8
+  35              		.cfi_offset 3, -8
+  36              		.cfi_offset 14, -4
+   6:User/main.c   ****   Led_Init();
+  37              		.loc 1 6 3 view .LVU1
+  38 0002 FFF7FEFF 		bl	Led_Init
+  39              	.LVL0:
+   7:User/main.c   ****   LightUp();
+  40              		.loc 1 7 3 view .LVU2
+  41 0006 FFF7FEFF 		bl	LightUp
+  42              	.LVL1:
+  43              	.L2:
+   8:User/main.c   ****   while (1)
+  44              		.loc 1 8 3 discriminator 1 view .LVU3
+   9:User/main.c   ****   {
+  10:User/main.c   ****   }
+  45              		.loc 1 10 3 discriminator 1 view .LVU4
+   8:User/main.c   ****   while (1)
+  46              		.loc 1 8 9 discriminator 1 view .LVU5
+  47 000a FEE7     		b	.L2
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccq0be99.s 			page 2
+
+
+  48              		.cfi_endproc
+  49              	.LFE29:
+  51              		.text
+  52              	.Letext0:
+  53              		.file 2 "Driver/led.h"
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccq0be99.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.c
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccq0be99.s:18     .text.main:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccq0be99.s:24     .text.main:0000000000000000 main
+
+UNDEFINED SYMBOLS
+Led_Init
+LightUp

@@ -1,0 +1,154 @@
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.arch armv7-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"led.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.Led_Init,"ax",%progbits
+  18              		.align	1
+  19              		.global	Led_Init
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  24              	Led_Init:
+  25              	.LFB29:
+  26              		.file 1 "Driver/led.c"
+   1:Driver/led.c  **** #include "led.h"
+   2:Driver/led.c  **** #include "stm32f10x_rcc.h"
+   3:Driver/led.c  **** #include "stm32f10x_gpio.h"
+   4:Driver/led.c  **** 
+   5:Driver/led.c  **** void Led_Init()
+   6:Driver/led.c  **** {
+  27              		.loc 1 6 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 8
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31 0000 00B5     		push	{lr}
+  32              	.LCFI0:
+  33              		.cfi_def_cfa_offset 4
+  34              		.cfi_offset 14, -4
+  35 0002 83B0     		sub	sp, sp, #12
+  36              	.LCFI1:
+  37              		.cfi_def_cfa_offset 16
+   7:Driver/led.c  ****   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
+  38              		.loc 1 7 3 view .LVU1
+  39 0004 0121     		movs	r1, #1
+  40 0006 0820     		movs	r0, #8
+  41 0008 FFF7FEFF 		bl	RCC_APB2PeriphClockCmd
+  42              	.LVL0:
+   8:Driver/led.c  **** 
+   9:Driver/led.c  ****   GPIO_InitTypeDef GPIO_InitStructure;
+  43              		.loc 1 9 3 view .LVU2
+  10:Driver/led.c  **** 
+  11:Driver/led.c  ****   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+  44              		.loc 1 11 3 view .LVU3
+  45              		.loc 1 11 31 is_stmt 0 view .LVU4
+  46 000c 0123     		movs	r3, #1
+  47 000e ADF80430 		strh	r3, [sp, #4]	@ movhi
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s 			page 2
+
+
+  12:Driver/led.c  ****   GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+  48              		.loc 1 12 3 is_stmt 1 view .LVU5
+  49              		.loc 1 12 32 is_stmt 0 view .LVU6
+  50 0012 1023     		movs	r3, #16
+  51 0014 8DF80730 		strb	r3, [sp, #7]
+  13:Driver/led.c  ****   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+  52              		.loc 1 13 3 is_stmt 1 view .LVU7
+  53              		.loc 1 13 33 is_stmt 0 view .LVU8
+  54 0018 0323     		movs	r3, #3
+  55 001a 8DF80630 		strb	r3, [sp, #6]
+  14:Driver/led.c  **** 
+  15:Driver/led.c  ****   GPIO_Init(GPIOB, &GPIO_InitStructure);
+  56              		.loc 1 15 3 is_stmt 1 view .LVU9
+  57 001e 01A9     		add	r1, sp, #4
+  58 0020 0248     		ldr	r0, .L3
+  59 0022 FFF7FEFF 		bl	GPIO_Init
+  60              	.LVL1:
+  16:Driver/led.c  **** }
+  61              		.loc 1 16 1 is_stmt 0 view .LVU10
+  62 0026 03B0     		add	sp, sp, #12
+  63              	.LCFI2:
+  64              		.cfi_def_cfa_offset 4
+  65              		@ sp needed
+  66 0028 5DF804FB 		ldr	pc, [sp], #4
+  67              	.L4:
+  68              		.align	2
+  69              	.L3:
+  70 002c 000C0140 		.word	1073810432
+  71              		.cfi_endproc
+  72              	.LFE29:
+  74              		.section	.text.LightUp,"ax",%progbits
+  75              		.align	1
+  76              		.global	LightUp
+  77              		.syntax unified
+  78              		.thumb
+  79              		.thumb_func
+  81              	LightUp:
+  82              	.LFB30:
+  17:Driver/led.c  **** 
+  18:Driver/led.c  **** void LightUp()
+  19:Driver/led.c  **** {
+  83              		.loc 1 19 1 is_stmt 1 view -0
+  84              		.cfi_startproc
+  85              		@ args = 0, pretend = 0, frame = 0
+  86              		@ frame_needed = 0, uses_anonymous_args = 0
+  87 0000 08B5     		push	{r3, lr}
+  88              	.LCFI3:
+  89              		.cfi_def_cfa_offset 8
+  90              		.cfi_offset 3, -8
+  91              		.cfi_offset 14, -4
+  20:Driver/led.c  ****   GPIO_ResetBits(GPIOB, GPIO_Pin_0);
+  92              		.loc 1 20 3 view .LVU12
+  93 0002 0121     		movs	r1, #1
+  94 0004 0148     		ldr	r0, .L7
+  95 0006 FFF7FEFF 		bl	GPIO_ResetBits
+  96              	.LVL2:
+  21:Driver/led.c  **** }...
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s 			page 3
+
+
+  97              		.loc 1 21 1 is_stmt 0 view .LVU13
+  98 000a 08BD     		pop	{r3, pc}
+  99              	.L8:
+ 100              		.align	2
+ 101              	.L7:
+ 102 000c 000C0140 		.word	1073810432
+ 103              		.cfi_endproc
+ 104              	.LFE30:
+ 106              		.text
+ 107              	.Letext0:
+ 108              		.file 2 "/Applications/ARM/arm-none-eabi/include/machine/_default_types.h"
+ 109              		.file 3 "/Applications/ARM/arm-none-eabi/include/sys/_stdint.h"
+ 110              		.file 4 "CMSIS/stm32f10x.h"
+ 111              		.file 5 "Library/inc/stm32f10x_gpio.h"
+ 112              		.file 6 "Library/inc/stm32f10x_rcc.h"
+ARM GAS  /var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 led.c
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s:18     .text.Led_Init:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s:24     .text.Led_Init:0000000000000000 Led_Init
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s:70     .text.Led_Init:000000000000002c $d
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s:75     .text.LightUp:0000000000000000 $t
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s:81     .text.LightUp:0000000000000000 LightUp
+/var/folders/xq/yqltsqn90dd_k74m2t8rz5m40000gn/T//ccll8oOj.s:102    .text.LightUp:000000000000000c $d
+
+UNDEFINED SYMBOLS
+RCC_APB2PeriphClockCmd
+GPIO_Init
+GPIO_ResetBits

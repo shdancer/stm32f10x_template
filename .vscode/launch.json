@@ -1,0 +1,19 @@
+{
+  "configurations": [
+  {
+    "name": "启动",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/build/template.elf",
+    "miDebuggerPath": "arm-none-eabi-gdb",
+    "miDebuggerArgs": "-ex=\"target extended-remote localhost:3333\" -ex=\"monitor reset halt\" -ex=\"load\"",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "gdb",
+    // "preLaunchTask": "run"
+  }
+  ]
+}
